@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #021e33;
+    height: 100vh;
+}
+
+.interface{
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* TOPO DO SITE */
+section.topodosite{
+    padding: 40px 4%;
+}
+
+section.topodosite .flex{
+    align-items: center;
+    justify-items: center;
+    gap: 150px;
+}
+
+.topodosite h1{
+    color: #fff;
+    font-size: 33px;
+    line-height: 40px;
+}
+
+.txtTopoSite h1 span{
+    color: rgba(255, 0, 0, 0.879);
+}
+
+.txtTopoSite p{
+    color: #fff;
+    font-size: 23px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+.txtTopoSite p span{
+    color: rgba(255, 0, 0, 0.879);
+}
+
+.imgTopoSite img{
+    height: 500px;
+    width: 500px;
+}
+
+.imgTopoSite img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
